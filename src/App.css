@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Galano Grotesque;
+    src: url(./Assets/Font/galanogrotesque-regular.otf) format("opentype");
+}
+
+@font-face {
+    font-family: Galano Grotesque heading;
+    src: url(./Assets/Font/galanogrotesque-semibold.otf) format("opnetype");
+}
+
+@font-face {
+    font-family: Galano Grotesque semi-heading;
+    src: url(./Assets/Font/galanogrotesque-medium.otf) format("opentype");
+}

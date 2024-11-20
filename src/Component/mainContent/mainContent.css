@@ -1,0 +1,218 @@
+.maincontent {
+    position: relative;
+    width: 80%;
+    /* max-height: 1400px; */
+    left: 10%;
+    z-index: 5;
+    top: -10rem;
+    /* bottom: -20vh; */
+    /* margin-bottom: -20vh; */
+    /* top: 134px; */
+    padding-top: 2%;
+    
+    /* colors/black/100 */
+    
+    background: #FFFFFF;
+    /* shadows/card */
+    
+    box-shadow: 0px 2px 8px rgba(26, 24, 30, 0.06);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.maincontent_body {
+    position: relative;
+    left: 10%;
+    /* top: 2%; */
+    width: 80%;
+}
+
+.maincontent_heading {
+    position: relative;
+    
+    font-family: 'Galano Grotesque';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    /* identical to box height, or 117% */
+
+    letter-spacing: -0.04em;
+
+    color: #1A181E;
+}
+
+.maincontent_text {
+    position: relative;
+    /* Heading/H5|Regular */
+    font-family: 'Galano Grotesque';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+
+    /* colors/black/30 */
+    color: #4D4D4D;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.maincontent_Search_heading {
+    font-family: 'Galano Grotesque';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 5px;
+    /* identical to box height, or 150% */
+
+
+    /* colors/black/30 */
+
+    color: #4D4D4D;
+}
+
+.maincontent_searchbox {
+    position: relative;
+    width: 60%;
+    height: 48px;
+    font-size: larger;
+
+    /* colors/black/85 */
+
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.maincontent_generate_button {
+    cursor: pointer;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 24px;
+
+    position: relative;
+    margin: 20px 0;
+    height: 50px;
+    
+    /* colors/primary/blue */
+
+    background: #146EB4;
+    border-radius: 4px;
+
+    font-family: 'Galano Grotesque';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.maincontent_search_result {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Heading/H5|Medium */
+
+    font-family: 'Galano Grotesque semi-heading';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+
+    /* colors/black/12 */
+
+    color: #1A181E;
+}
+
+.maincontent_search_result > Button {
+    cursor: pointer;
+    height: 40px;
+    width: 120px;
+    border-color: #146EB4;
+    background-color: transparent;
+    border-radius: 8px;
+    margin-left: 10px;
+
+    /* Body/Small|Medium */
+
+    font-family: 'Galano Grotesque';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+
+    /* colors/primary/blue */
+
+    color: #146EB4;
+}
+
+.maincontent_line {
+    position: relative;
+    /* width: 100%; */
+    height: 1px;
+    background: #D9D9D9;
+}
+
+.maincontent_data_box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+}
+
+li {
+    width: 48%;
+}
+
+.maincontent_data {
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    background: #F2F2F2;
+    border-radius: 4px;
+    /* height: 60px; */
+}
+
+
+.maincontent_alert {
+    position: relative;
+    display: flex;
+    height: 28px;
+    padding: 0 10px;
+    width: fit-content;
+    justify-content: center;
+    color: white;
+    margin-bottom: 10px;
+
+/* colors/black/30 */
+    background: #4D4D4D;
+    border-radius: 4px;
+}
+
+.maincontent_pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    height: 40px;
+}
+
+.maincontent_pagination > Button {
+    cursor: pointer;
+    color: #146EB4;
+    background-color: transparent;
+    border: 0;
+}
